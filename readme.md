@@ -1,7 +1,7 @@
 
 # Responsive Resume
 
-&emsp;&emsp; A simple html page with a lot of bootstrap and font awesome just to create a resume template. Try modify it and have your version of this resume template.<br /> 
+&emsp;&emsp; A simple html page with a lot of bootstrap and font awesome just to create a resume template. Edit your details and try modify the bootstrap classes, color or icons to have your version of a resume template. Best of luck for your career.<br /> 
 
 ## FAQ
 
