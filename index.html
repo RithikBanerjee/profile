@@ -19,6 +19,11 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -110,6 +115,14 @@ h3 {
     background-attachment: scroll;
   }
 }
+
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1)
+}
+
 </style>
 </head>
 <body>
@@ -177,51 +190,35 @@ h3 {
 <div class="bgimg-3 text-white" id="projects">
   <div style="padding: 50px 80px;">
   <h2 class="text-center mt-5" style="letter-spacing: 5px;margin-bottom:100px;">PROJECTS</h2>
-  <div class="row" style="margin-left:60px;">
-    <a class="col-sm-2" href="https://github.com/RithikBanerjee/Excel-Data-Importer">
-	<div class="flip-card">
-		<div class="flip-card-inner border border-secondary">
-		<div class="flip-card-front">
-			<h4 class="mt-5 mb-5">EXCEL DATA IMPORTER</h4>
-			Dynamic-link library used to import excel data to any valid datatype. The combination of Aspose's light cell handler and C Data's excel queries makes excel data import in fractions of a second.
+  <div class="row mb-5">
+		<div class="col-sm-4 grow">
+			<h5 style="letter-spacing: 5px;">EXCEL DATA IMPORTER
+			<a href="https://github.com/RithikBanerjee/Excel-Data-Importer"><i class="fa fa-link"></i></a></h5>
+			Jan 2020 - March 2020
 		</div>
-		<div class="flip-card-back">
-			Jan 2020 - March 2020<br/>
-			<div class="mt-5">Repository Link Here</div>
+		<div class="col-sm-8">
+			Dynamic-link library used to import excel data to any valid data-type. The combination of Aspose's light cell handler and C Data's excel queries makes excel data import in fractions of a second.<br>
 		</div>
+  </div>
+  <div class="row mb-5">
+		<div class="col-sm-4 grow">
+			<h5 style="letter-spacing: 5px;">GSP SDK
+			<a href="https://github.com/RithikBanerjee/Open-Source-.Net-SDK"><i class="fa fa-link"></i></a></h5>
+			Nov 2020 - Feb 2020
 		</div>
-	</div>
-	</a>
-	<div class="col-sm-2"></div>
-	<a class="col-sm-2" href="https://github.com/RithikBanerjee/Open-Source-.Net-SDK">
-	<div class="flip-card">
-		<div class="flip-card-inner border border-secondary">
-		<div class="flip-card-front">
-			<h4 class="mt-5 mb-5">GSP SDK</h4>
-			A class library used as SDK to build government portal. It uses GSP integrated API's to save, submit, file and import data from government portal.
+		<div class="col-sm-8">
+			A class library used as development tool for building gst-based softwares. It uses GSP integrated API's to save, submit, file and import data from gst portal.<br>
 		</div>
-		<div class="flip-card-back">
-			Nov 2020 - Feb 2020<br/>
-			<div class="mt-5">Repository Link Here</div>
+  </div>
+  <div class="row">
+		<div class="col-sm-4 grow">
+			<h5 style="letter-spacing: 5px;">IRIS DETECTOR
+			<a href="https://github.com/RithikBanerjee/Iris-Detector-using-OpenCV"><i class="fa fa-link"></i></a></h5>
+			Sept 2018 - April 2019
 		</div>
+		<div class="col-sm-8">
+			A python project which localises and segments the iris part from a non-ideal iris image using OpenCV's machine learning and image processing techniques.<br>
 		</div>
-	</div>
-	</a>
-	<div class="col-sm-2"></div>
-	<a class="col-sm-2" href="https://github.com/RithikBanerjee/Iris-Detector-using-OpenCV">
-	<div class="flip-card">
-		<div class="flip-card-inner border border-secondary">
-		<div class="flip-card-front">
-			<h4 class="mt-5 mb-5">IRIS DETECTOR</h4>
-			A python project which localises and segments the iris part from a non-ideal iris image using OpenCV's machine learning and image processing techniques.
-		</div>
-		<div class="flip-card-back">
-			Sept 2018 - April 2019<br/>
-			<div class="mt-5">Repository Link Here</div>
-		</div>
-		</div>
-	</div>
-	</a>
   </div>
   </div>
 </div>
@@ -229,7 +226,7 @@ h3 {
 <div style="position:relative;">
   <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 class="text-white mb-4" style="text-align:center;">Technical Skills</h3>
-  <div class="row">
+  <div class="row color">
 	<div class="col-sm-4 text-center">
 	<h5 style="letter-spacing: 5px;">ELEMENTARY</h5>
 	Java <br/>
@@ -263,7 +260,8 @@ h3 {
   <div class="text-center text-white" style="padding: 50px 80px;">
   <h4 style="letter-spacing: 5px;margin-bottom:100px;margin-top:100px;">CONTACT ME</h4>
   <div class="row-col text-center mt-5" style="margin-bottom:50px;">
-    <a href="documentation/Resume.pdf" download><button style="letter-spacing: 5px;margin-bottom:100px;"><i class="fa fa-download fa-1x fa-fw"></i> RESUME</button></a>
+    <a href="documentation/Resume.pdf" download><button style="letter-spacing: 5px;padding: 5px;margin-bottom:100px;">
+	<i class="fa fa-download fa-1x fa-fw"></i> RESUME</button></a>
 	<br/><i class="far fa-envelope fa-1x fa-fw"></i>banerjee13rithik@gmail.com<br/>
 	<i class="fas fa-mobile-alt fa-1x fa-fw"></i>(+91) 990 347 1021<br/>
 	<i class="fab fa-skype fa-1x fa-fw"></i>live:banerjee13rithik
