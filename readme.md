@@ -5,9 +5,9 @@
 
 ## FAQ
 
-#### How to run the project?
+#### Want to run the project?
 Just open [Index.html](/Index.html)
 
-#### Want ot add your image?
+#### Want to add your image?
 Uncomment the code in line 28 of [Index.html](/Index.html)
 
