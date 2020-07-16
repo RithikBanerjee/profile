@@ -1,3 +1,4 @@
+![Poster](assets/images/readme.png)
 
 # Responsive Resume
 
