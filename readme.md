@@ -9,6 +9,4 @@
 #### Want to run the project?
 Just open [Index.html](/Index.html) on any browser.
 
-#### Want to add your image?
-Uncomment the code in line 28 of [Index.html](/Index.html)
 
