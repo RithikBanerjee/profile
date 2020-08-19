@@ -7,6 +7,6 @@
 ## FAQ
 
 #### Want to run the project?
-Just open [Index.html](/Index.html) on any browser.
+Just open [Index.html](/Index.html) on any browser or any device.
 
 
