@@ -563,6 +563,7 @@
     document.addEventListener("DOMContentLoaded", function (event) {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
             document.getElementsByName("articles")[0].classList.add("text-center");
+			document.getElementsByName("articles")[0].classList.remove("ml-4");
         }
     });
 </script>
