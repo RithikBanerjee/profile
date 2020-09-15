@@ -25,12 +25,12 @@ body::-webkit-scrollbar {
 }
 
 .bgimg-2 {
-  background-image: url("../images/work.png");
+  background-image: url("../images/common.jpg");
   min-height: 100%;
 }
 
 .bgimg-3 {
-  background-image: url("../images/project.jpg");
+  background-image: url("../images/common.jpg");
   min-height: 100%;
 }
 
@@ -101,13 +101,12 @@ h3 {
 
 .grow:hover
 {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1)
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1)
 }
 
 .collapsible {
-  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -116,6 +115,7 @@ h3 {
 
 .active, .collapsible:hover {
   background-color: #555;
+  color: white;
 }
 
 .content {
